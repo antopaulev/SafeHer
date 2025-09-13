@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Django stuff
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest / Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Pip / Poetry
+pip-log.txt
+pip-delete-this-directory.txt
+.poetry/
+
+# Migrations (optional, keep if you want clean repo)
+**/migrations/__pycache__/
+**/migrations/*.py
+!**/migrations/__init__.py
